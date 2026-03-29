@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   },
   description: 'Find and navigate government services in Bangladesh easily and quickly.',
   keywords: ['government', 'services', 'Bangladesh', 'passport', 'NID', 'trade license'],
+  icons: {
+    icon: '/application.png',       // main favicon
+    shortcut: '/application.png',   // for legacy browsers
+    apple: '/application.png',      // for Apple devices
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

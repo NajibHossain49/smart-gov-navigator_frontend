@@ -22,6 +22,9 @@
 
 ## 🎯 Project Overview
 
+## Live Demo
+👉 [Smart Gov Navigator](https://smart-gov-navigator.vercel.app/)
+
 **Smart Government Service Navigator** হলো একটি Civic Tech প্ল্যাটফর্ম যেখানে বাংলাদেশের নাগরিকরা:
 
 - যেকোনো সরকারি সেবা সহজে **খুঁজে পেতে** পারে
