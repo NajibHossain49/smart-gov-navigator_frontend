@@ -36,6 +36,10 @@
 
 ## 🛠️ Tech Stack
 
+## Repository Link Backend
+
+[Smart Gov Navigator Backend](https://github.com/NajibHossain49/smart-gov-navigator_backend)
+
 ### Backend
 | Technology | Purpose |
 |-----------|---------|
