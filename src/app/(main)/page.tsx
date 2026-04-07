@@ -57,7 +57,7 @@ export default function HomePage() {
     setShowSuggestions(true)
     debounceRef.current = setTimeout(async () => {
       try {
-        const res = await serviceApi.getAll(1, 6, val.trim())
+        const res = await serviceApi.getAll(1, 6)
         setSuggestions(res?.data?.data?.services ?? [])
       } catch {
         setSuggestions([])
