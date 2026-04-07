@@ -10,6 +10,7 @@ import { CardSkeleton } from '@/components/ui/LoadingSpinner'
 import EmptyState from '@/components/ui/EmptyState'
 import type { Service, Category } from '@/types'
 
+
 function ServicesContent() {
   const searchParams = useSearchParams()
   const [searchInput, setSearchInput] = useState(searchParams.get('q') ?? '')
@@ -163,6 +164,7 @@ function ServicesContent() {
         </>
       )}
     </div>
+    
   )
 }
 

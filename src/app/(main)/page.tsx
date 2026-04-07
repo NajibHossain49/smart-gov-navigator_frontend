@@ -9,6 +9,8 @@ import { CATEGORY_ICONS, CATEGORY_COLORS, cn } from '@/lib/utils'
 import { CardSkeleton } from '@/components/ui/LoadingSpinner'
 import StarRating from '@/components/ui/StarRating'
 import type { Category, Service } from '@/types'
+import TeamSection from './Teamsection'
+
 
 export default function HomePage() {
   const router = useRouter()
@@ -360,7 +362,40 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
+      <TeamSection
+        title="Our Best Team"
+        subtitle="Meet our dedicated government office staff"
+        members={[
+          {
+            id: 1,
+            name: 'Md. Rafiqul Islam',
+            designation: 'Director General',
+            department: 'Administration',
+            office: 'Dhaka HQ',
+            email: 'rafiqul@gov.bd',
+            phone: '+880 1700-000001',
+            color: 'blue',
+          },
+          {
+            id: 2,
+            name: 'Fatema Khanam',
+            designation: 'Deputy Secretary',
+            department: 'Finance',
+            office: 'Chattogram',
+            email: 'fatema@gov.bd',
+             phone: '+880 1700-000054',
+          },
+          {
+            id: 3,
+            name: 'Redima Rahman Mou',
+            designation: 'Deputy Secretary',
+            department: 'Human Resources',
+            office: 'Dhaka',
+            email: 'redima@gov.bd',
+             phone: '+880 1700-0054009',
+          },
+        ]}
+      />
       {/* ── CTA ──────────────────────────────── */}
       <section className="bg-primary-600 py-14">
         <div className="max-w-2xl mx-auto text-center px-4">
