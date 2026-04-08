@@ -1,10 +1,6 @@
 'use client'
+import HeroSection from './components/Herosection'
 import TeamSection from './Teamsection'
-import HeroSection from './HeroSection'
-import CategoriesSection from './CategoriesSection'
-import FeaturedServicesSection from './FeaturedServicesSection'
-import HowItWorksSection from './HowItWorksSection'
-import CTASection from './CTASection'
 
 export default function HomePage() {
   return (
